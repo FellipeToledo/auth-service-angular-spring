@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LoginComponent } from './auth/login/login.component';
+import { Routes } from '@angular/router';
 
+const routes: Routes = [
+
+];
 
 @NgModule({
-  declarations: [
-    LoginComponent,
-  ],
+  declarations: [],
   imports: [
     CommonModule
   ]
 })
-export class PagesModule { }
+export class PagesRoutingModule { }
