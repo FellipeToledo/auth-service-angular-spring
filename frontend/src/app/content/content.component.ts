@@ -1,4 +1,4 @@
-import { AxiosService } from './../axios.service';
+import { AxiosService } from '../core/http-client/axios.service';
 import { Component } from '@angular/core';
 
 @Component({
